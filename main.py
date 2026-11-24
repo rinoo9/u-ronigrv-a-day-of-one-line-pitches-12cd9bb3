@@ -5,11 +5,19 @@ Deterministic: no network, no randomness, no environment reads.
 
 Round 3: new hook — the idea stuck in the notes app (230 chars);
 opens on the stale-notes image instead of the months-carrying question.
+
+Round 4: new hook — the app that works exactly the way you think
+(208 chars). Rounds 1-3 all opened from "you have an idea, describe it";
+this one flips the angle to the reader's frustration that no app-store
+app fits the way they think, then reveals the missing app already
+exists in their head — it just hasn't been built yet. The em-dash
+turn turns a complaint into an invitation, and the close keeps the
+free-to-try, no-coding-needed call to action.
 """
 
 import os
 
-PITCH = "Your app idea has lived in your notes app long enough now. Describe it in plain words and an AI will build it for you on make.fun today — free to try, no coding needed, and you can tweak anything until it feels exactly like yours."
+PITCH = "Somewhere out there is an app that works exactly the way you think — it just hasn't been built yet. Describe it in plain words and an AI will build it for you on make.fun today, free to try, no coding needed."
 
 
 def main() -> None:
