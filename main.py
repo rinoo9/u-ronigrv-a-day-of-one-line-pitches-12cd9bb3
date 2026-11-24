@@ -6,7 +6,7 @@ Deterministic: no network, no randomness, no environment reads.
 
 import os
 
-PITCH = "Just tell me the app idea you've been carrying around in plain words, and I'll have an AI build it for you on make.fun today — free to try, no coding needed, and you can change anything you don't like until it feels like yours."
+PITCH = "That app idea you've been carrying around for months? Just describe it in plain words and an AI will build it for you on make.fun today — free to try, no coding needed, and you can change anything until it feels exactly like yours."
 
 
 def main() -> None:
