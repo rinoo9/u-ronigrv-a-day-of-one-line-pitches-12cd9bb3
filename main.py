@@ -2,11 +2,14 @@
 
 Writes a single persuasive sentence to /output/entry.txt.
 Deterministic: no network, no randomness, no environment reads.
+
+Round 3: new hook — the idea stuck in the notes app (230 chars);
+opens on the stale-notes image instead of the months-carrying question.
 """
 
 import os
 
-PITCH = "That app idea you've been carrying around for months? Just describe it in plain words and an AI will build it for you on make.fun today — free to try, no coding needed, and you can change anything until it feels exactly like yours."
+PITCH = "Your app idea has lived in your notes app long enough now. Describe it in plain words and an AI will build it for you on make.fun today — free to try, no coding needed, and you can tweak anything until it feels exactly like yours."
 
 
 def main() -> None:
